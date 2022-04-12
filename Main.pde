@@ -207,7 +207,7 @@ class Boid {
       float d = PVector.dist(position, other.position);
       if ((d > 0) && (d < neighbordist)) {
        other.velocity.mult(2-0.04*d);
-       //other.velocity.mult(1-0.01*d);
+       //this smooths out the instantaneous change of velocity and reduces oscillatory behavior
         sum.add(other.velocity);
         count++;
       }
@@ -230,8 +230,8 @@ class Boid {
     }
   }
 
-  // Cohesion
-  // For the average position (i.e. center) of all nearby boids, calculate steering vector towards that position
+  // Leader Control
+  // Uses the mouse pointer location for position control
   PVector cohesion (ArrayList<Boid> boids) {
     
       PVector s1 = new PVector(mouseX,mouseY);
