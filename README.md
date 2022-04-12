@@ -1,4 +1,4 @@
-# Multi-Agent-Leader-Follower-Control
+# Multi Agent Leader Follower Control
 Uses a modification of the boids flocking rules to enable user control for flock/multi-agent navigation. Here a leader-follower structure is presented which allows the user to provide overall navigation of the "flock" and acts as a virtual leader. 
 
 This is different from regular boids which steer towards the center of mass (known as "cohesion") but rather steers towards the user's desired position.
