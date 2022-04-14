@@ -10,3 +10,4 @@ Prerequisites: The code is written in Processing3, which can be downloaded here 
 
 Open and run the main file, then point the mouse to the desired position in the window. The boids will steer/flock towards that point while trying to avoid each other and maintaining a formation.
 
+<img width="534" alt="leader_control" src="https://user-images.githubusercontent.com/95622570/163322734-53114e66-aa8f-482b-bb0c-63414ebd647b.png">
