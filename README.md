@@ -5,6 +5,21 @@ This is different from regular boids which steer towards the center of mass (kno
 
 The code uses a modified version of a boids flocking implementation by Daniel Shiffman https://processing.org/examples/flocking.html
 
+## What are boids rules ?
+Boids refers to a computer simulation which tries to mimic natural flocking behavior such as birds or fish. This is done by use of 3 rules known as "cohesion", "alignment", and "separation". 
+
+**Cohesion** : A steering force towards the center of mass of nearby agents
+
+**Alignment**: A steering force towards the direction of average velocity of nearby agents
+
+**Sepeation**: A steering force pointing away from agents that are too close
+
+The combination of boids rules produces a behavior which has desirable properties in navigation in multi-agent systems. These include obstacle avoidance, path planning and formation control
+
+Some applications include:
+1. Autonomous mobile robot control (selfdriving cars, warehouse drones, search and rescue drones, etc.)
+2. Satellite formation control
+
 # How to Use
 Prerequisites: The code is written in Processing3, which can be downloaded here https://processing.org/download
 
