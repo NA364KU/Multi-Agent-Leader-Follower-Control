@@ -3,7 +3,7 @@ Uses a modification of the boids flocking rules to enable user control for flock
 
 This is different from regular boids which steer towards the center of mass (known as "cohesion") but rather steers towards the user's desired position.
 
-The code uses a modified version of a boids flocking implementatoin by Daniel Shiffman https://processing.org/examples/flocking.html
+The code uses a modified version of a boids flocking implementation by Daniel Shiffman https://processing.org/examples/flocking.html
 
 # How to Use
 Prerequisites: The code is written in Processing3, which can be downloaded here https://processing.org/download
